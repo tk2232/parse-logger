@@ -1,4 +1,4 @@
-import { LoggerAdapter } from './LoggerAdapter';
+const LoggerAdapter = require('./LoggerAdapter');
 import { logger, addTransport, configureLogger } from './WinstonLogger';
 
 const MILLISECONDS_IN_A_DAY = 24 * 60 * 60 * 1000;
